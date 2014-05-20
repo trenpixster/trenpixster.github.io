@@ -1,0 +1,381 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Backbone.JS Tutorial part 3 &#8211; trenpixster's blog</title>
+<meta name="description" content="Trenpixster on dev craftmanship">
+<meta name="keywords" content="backbone, javascript, tutorial">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://localhost:4000/images/">
+<meta name="twitter:title" content="Backbone.JS Tutorial part 3">
+<meta name="twitter:description" content="Trenpixster on dev craftmanship">
+<meta name="twitter:creator" content="@trenpixster">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Backbone.JS Tutorial part 3">
+<meta property="og:description" content="Trenpixster on dev craftmanship">
+<meta property="og:url" content="http://localhost:4000/learning/backbone-tutorial-3/">
+<meta property="og:site_name" content="trenpixster's blog">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/learning/backbone-tutorial-3/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="trenpixster's blog Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.min.css">
+<!-- Webfonts -->
+<script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="post">
+
+<div class="navigation-wrapper">
+	<nav role="navigation" id="site-nav" class="animated drop">
+	    <ul>
+	        
+			<li>
+				
+					<a href="http://localhost:4000">About</a>
+				 
+			</li>
+	        
+			<li>
+				
+					<a href="http://localhost:4000/articles/">Articles</a>
+				 
+			</li>
+	        
+	        <li><a href="http://localhost:4000/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+	        <li class="dosearch"><i class="icon-search"></i> Search</li>
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+<div class="search-wrapper">
+	<div class="search-form">
+		<input type="text" class="search-field" placeholder="Search...">
+		<i class="icon-remove-sign icon-2x"></i>
+		<ul class="search-results post-list"></ul><!-- /.search-results -->
+	</div><!-- /.search-form -->
+</div><!-- ./search-wrapper -->
+
+<header class="masthead">
+	<div class="wrap">
+        
+        <h1 class="site-title animated fadeIn"><a href="http://localhost:4000/">trenpixster's blog</a></h1>
+		<h2 class="site-description animated fadeIn" itemprop="description">Trenpixster on dev craftmanship</h2>
+	</div>
+</header><!-- /.masthead -->
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#backbone" title="Pages tagged backbone">backbone</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/#javascript" title="Pages tagged javascript">javascript</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/#tutorial" title="Pages tagged tutorial">tutorial</a></span>
+        
+          <h1 class="entry-title">Backbone.JS Tutorial part 3</h1>
+        
+      </header>
+      <footer class="entry-meta">
+        <img src="http://localhost:4000/images/trenpixster.png" alt="Nizar Venturini photo" class="author-photo">
+        <span class="author vcard">By <span class="fn"><a href="http://localhost:4000/about/" title="About Nizar Venturini">Nizar Venturini</a></span></span>
+        <span class="entry-date date published"><time datetime="2014-03-24T22:17:58+00:00"><i class="icon-calendar-empty"></i> March 24, 2014</time></span>
+        
+        <span class="entry-comments"><i class="icon-comment-alt"></i> <a href="#disqus_thread">Comment</a></span>
+        <span><a href="http://localhost:4000/learning/backbone-tutorial-3/" rel="bookmark" title="Backbone.JS Tutorial part 3"><i class="icon-link"></i> Permalink</a></span>
+        
+      </footer>
+      <div class="entry-content">
+        <p>Here’s the 3rd post on the Backbone.js tutorial series. If you missed the first one check it out <a href="/learning/backbone-tutorial-1">here</a>. This time I’ll walk you around <code>Backbone.View</code>, the object responsible for creating and updating the UI of the web-app.</p>
+
+<h1 id="views">Views</h1>
+<p>Views are used to render and update the UI side of things on the web-app. It is the glue between <code>Backbone.Model</code>/<code>Backbone.Collection</code> and your HTML.</p>
+
+<p>A <code>Backbone.View</code> has several important concepts:</p>
+
+<ul>
+  <li><code>template</code>: this is where your dynamic template (<a href="http://www.handlebarsjs.com">Handlebars.js</a>/<a href="http://mustache.github.io/">Moustache.js</a>/<a href="http://underscorejs.org/#template">Underscore Template</a>/<a href="http://lmgtfy.com/?q=javascript+HTML+template+engine">whatever</a>) is loaded - check out how this works by clicking one of the previous links.</li>
+  <li><code>initialize</code>: as you’ve already figured out, initialize whatever is required here.</li>
+  <li><code>render</code>: generates the HTML from the <code>template</code> together with your Models and/or Collections. It can even be a static piece of HTML if you wish.</li>
+  <li><code>events</code>: jQuery style CSS selectors to capture events (click, keypress, etc)</li>
+</ul>
+
+<h2 id="template">template</h2>
+
+<p>First, let’s define our view with an associated template. I’m going to use Underscore Templates.</p>
+
+<div class="highlight"><pre><code class="javascript"><span class="kd">var</span> <span class="nx">view</span> <span class="o">=</span> <span class="nx">Backbone</span><span class="p">.</span><span class="nx">View</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
+  <span class="nx">template</span><span class="o">:</span> <span class="nx">_</span><span class="p">.</span><span class="nx">template</span><span class="p">(</span><span class="s2">&quot;&lt;h1&gt;Hello Backbone.View&lt;/h1&gt;&lt;p&gt;Isn&#39;t this awesome, Mr. Anderson? Or is it &lt;%= name %&gt;?&quot;</span><span class="p">)</span>
+<span class="p">});</span>
+</code></pre></div>
+
+<p>And that’s it. You now have a template defined with a dynamic portion on it, the <code>name</code> for this view. At this moment you can’t do nothing cool, but bear with me.</p>
+
+<h2 id="initialize">initialize</h2>
+<p>Initialize is a pretty straight-forward method, except for one important detail that make all the difference between a normal UI and a Backbone.js UI: binding to <code>model</code> and <code>collection</code> events!</p>
+
+<div class="highlight"><pre><code class="javascript"><span class="kd">var</span> <span class="nx">BookView</span> <span class="o">=</span> <span class="nx">Backbone</span><span class="p">.</span><span class="nx">View</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
+  <span class="nx">template</span><span class="o">:</span> <span class="nx">_</span><span class="p">.</span><span class="nx">template</span><span class="p">(</span><span class="s2">&quot;&lt;h1&gt;Hello Backbone.View&lt;/h1&gt;&lt;p&gt;Isn&#39;t this awesome, Mr. Anderson? Or is it &lt;%= name %&gt;?&quot;</span><span class="p">),</span>
+
+    <span class="nx">initialize</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">listenTo</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">model</span><span class="p">,</span> <span class="s1">&#39;change&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(){</span><span class="nx">alert</span><span class="p">(</span><span class="s2">&quot;It changed!&quot;</span><span class="p">);}.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">));</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">foo</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">options</span><span class="p">.</span><span class="nx">foo</span><span class="p">;</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">bar</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">options</span><span class="p">.</span><span class="nx">bar</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">});</span>
+</code></pre></div>
+
+<p>Don’t feel overwhelmed, this can be easily understood :-)
+If you’re wondering about <code>.bind(this)</code>, check <a href="/tip/the-wonders-of-bind">this</a> post.</p>
+
+<h3 id="options">options</h3>
+<p>The <code>this.options</code> object is where the data that is passed to the view is stored:</p>
+
+<div class="highlight"><pre><code class="javascript"><span class="o">&gt;</span> <span class="kd">var</span> <span class="nx">book_model</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Book</span><span class="p">({</span><span class="nx">id</span><span class="o">:</span> <span class="mi">1</span><span class="p">});</span>
+<span class="o">&gt;</span> <span class="nx">book_model</span><span class="p">.</span><span class="nx">fetch</span><span class="p">();</span> <span class="c1">// here we will get the contents for this book</span>
+<span class="o">&gt;</span> <span class="kd">var</span> <span class="nx">book_view</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">BookView</span><span class="p">({</span> <span class="nx">model</span><span class="o">:</span> <span class="nx">book_model</span><span class="p">,</span> <span class="nx">foo</span><span class="o">:</span> <span class="s2">&quot;foo&quot;</span><span class="p">,</span> <span class="nx">bar</span><span class="o">:</span> <span class="s2">&quot;bar&quot;</span><span class="p">});</span>
+</code></pre></div>
+
+<p>The only exception where you don’t have to explicitly capture the objects from the <code>this.options</code> container is when you pass a <code>model</code>, <code>collection</code>, <code>el</code>, <code>id</code>, <code>className</code>, <code>tagName</code>, <code>attributes</code> and <code>events</code>.</p>
+
+<h3 id="listento">listenTo</h3>
+<p>Remember the <a href="/learning/backbone-tutorial-1#events">Backbone.Model</a> and <a href="/learning/backbone-tutorial-2#events">Backbone.Collection</a> events? This is what <code>this.listenTo</code> is for. You <code>listenTo</code> events triggered by your Model or Collection.</p>
+
+<p>This is the good way to procede because when you invoke <code>view.remove()</code> to remove the View element, the binds that were made through <code>listenTo</code> will also be removed - otherwise you’d have a memory leak in case you forgot to unbind this.</p>
+
+<p>If we changed some attribute on the model:</p>
+
+<div class="highlight"><pre><code class="javascript"><span class="o">&gt;</span> <span class="nx">book_model</span><span class="p">.</span><span class="nx">set</span><span class="p">(</span><span class="s1">&#39;new_attribute&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+ <span class="c1">// Alert is displayed with &quot;It changed!&quot;</span>
+<span class="o">&gt;</span> <span class="nx">book_model</span><span class="p">.</span><span class="nx">set</span><span class="p">(</span><span class="s1">&#39;new_attribute&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
+ <span class="c1">// Alert is displayed with &quot;It changed!&quot;</span>
+</code></pre></div>
+
+<h2 id="render">render</h2>
+<p>Render is where the rendering of the view itself occurs.</p>
+
+<p>But, before entering the render method itself, there are some View attributes that you should know:
+###tagName
+This specifies the tagName that will wrap the code generated by your template. If not defined it will default to <code>&lt;div&gt;</code>.
+###className
+This specifies the class name that will be applied to the view’s <code>tagName</code>.
+###el
+This is where the View’s HTML object will be saved.</p>
+
+<p>And now, of to <code>render()</code>!
+##render</p>
+
+<p>Here’s some vanilla code for rendering (let’s assume jQuery is available):</p>
+
+<div class="highlight"><pre><code class="javascript"><span class="kd">var</span> <span class="nx">BookView</span> <span class="o">=</span> <span class="nx">Backbone</span><span class="p">.</span><span class="nx">View</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
+  <span class="nx">template</span><span class="o">:</span> <span class="nx">_</span><span class="p">.</span><span class="nx">template</span><span class="p">(</span><span class="s2">&quot;&lt;h1&gt;Hello Backbone.View&lt;/h1&gt;&lt;p&gt;Isn&#39;t this awesome, Mr. Anderson? Or is it &lt;%= name %&gt;?&quot;</span><span class="p">),</span>
+
+    <span class="nx">initialize</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span> <span class="p">(...)</span> <span class="p">},</span>
+    <span class="nx">render</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+      <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">el</span><span class="p">).</span><span class="nx">html</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">template</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">model</span><span class="p">.</span><span class="nx">toJSON</span><span class="p">()));</span>
+        <span class="k">return</span> <span class="k">this</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">});</span>
+</code></pre></div>
+
+<p>What this is basically doing is to set the view’s <code>el</code> element HTML with the result from the <code>template</code> applied to the <code>model</code>. What you’d do to apply the resulting HTML generated by this view would be something like:</p>
+
+<div class="highlight"><pre><code class="javascript"><span class="o">&gt;</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;body&#39;</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="nx">book_view</span><span class="p">.</span><span class="nx">render</span><span class="p">().</span><span class="nx">el</span><span class="p">);</span>
+</code></pre></div>
+
+<h2 id="events">events</h2>
+<p>What would a View be without associated events? :-)
+Backbone allows you to specify jQuery events to interact with your views. Here’s the layout for defining events:</p>
+
+<div class="highlight"><pre><code class="javascript"><span class="nx">events</span><span class="o">:</span> <span class="p">{</span>
+  <span class="s1">&#39;click .btn-eclipse&#39;</span><span class="o">:</span> <span class="s1">&#39;eclipseTheWorld&#39;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>This translates into: “when a <strong>click</strong> event is captured on the elements that have the <strong>btn-eclipse</strong> class, invoke the view’s method <strong>eclipseTheWorld</strong>. Pretty neat, huh?</p>
+
+<p>Let’s add a new link that would increment the number of pages of the <code>BookModel</code> on this view.</p>
+
+<div class="highlight"><pre><code class="javascript"><span class="kd">var</span> <span class="nx">BookView</span> <span class="o">=</span> <span class="nx">Backbone</span><span class="p">.</span><span class="nx">View</span><span class="p">.</span><span class="nx">extend</span><span class="p">({</span>
+  <span class="nx">template</span><span class="o">:</span> <span class="nx">_</span><span class="p">.</span><span class="nx">template</span><span class="p">(</span><span class="s2">&quot;&lt;h1&gt; &lt;%= name %&gt; &lt;/h1&gt;&lt;p&gt;Current number of pages:&lt;%= number_of_pages %&gt;&lt;/p&gt;&lt;a id=&#39;btn_add_page&#39; href=&#39;#&#39;&gt;Add page&lt;/a&gt;&quot;</span><span class="p">),</span>
+    <span class="nx">events</span><span class="o">:</span> <span class="p">{</span>
+      <span class="s1">&#39;click #btn_add_page&#39;</span><span class="o">:</span><span class="s1">&#39;incNumberOfPages&#39;</span>
+    <span class="p">},</span>
+    <span class="nx">initialize</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+      <span class="nx">_</span><span class="p">.</span><span class="nx">bindAll</span><span class="p">(</span><span class="s1">&#39;render&#39;</span><span class="p">,</span> <span class="s1">&#39;incNumberOfPages&#39;</span><span class="p">);</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">listenTo</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">model</span><span class="p">,</span> <span class="s1">&#39;change&#39;</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">render</span><span class="p">);</span>
+    <span class="p">},</span>
+    <span class="nx">render</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span> <span class="p">(...)</span> <span class="p">},</span>
+    <span class="nx">incNumberOfPages</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+      <span class="kd">var</span> <span class="nx">number</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">model</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;number_of_pages&#39;</span><span class="p">);</span>
+        <span class="nx">number</span><span class="o">++</span><span class="p">;</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">model</span><span class="p">.</span><span class="nx">set</span><span class="p">(</span><span class="s1">&#39;number_of_pages&#39;</span><span class="p">,</span> <span class="nx">number</span><span class="p">);</span>
+        <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">});</span>
+</code></pre></div>
+
+<p>A few new concepts here, let’s go through them!</p>
+
+<ul>
+  <li>On the <code>template</code>, we added an anchor text with the id <code>btn_add_page</code>. We then specify that when this element is clicked, to invoke the <code>incNumberOfPages</code> method.</li>
+  <li><code>_.bindAll</code> is a preemptive way to do the <code>bind(this)</code> trick that underscore.js offers us. This is required since the <code>incNumberOfPages</code> will be triggered in anasync fashion.</li>
+  <li><code>incNumberOfPages</code> will increase the number of pages for this model.</li>
+  <li>Note that we <code>return false;</code> from the <code>incNumberOfPages</code> method. This happens so that the click event stops there, so it won’t trigger any default <code>click</code> event.</li>
+</ul>
+
+<p>Now the cool part: When we <code>set</code> the attribute, because we are listening to <code>change</code>s on the model, <code>render</code> will be automatically invoked when you press the button. This means the view’s HTML will reflect the change to the number of pages. Pretty sweet, huh?</p>
+
+<p>Next stop will be <code>Backbone.Router</code>, which will handle the navigation in the web-app.</p>
+
+        <div id="disqus_thread"></div><!-- /#disqus_thread -->
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="http://localhost:4000/learning/backbone-tutorial-2/" class="btn" title="Backbone.JS Tutorial part 2">Previous article</a>
+      
+      
+        <a href="http://localhost:4000/preparing/rvm-to-install-ruby-200/" class="btn" title="RVM to install Ruby 2.0.0">Next article</a>
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2014 Nizar Venturini. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/so-simple/">So Simple Theme</a>.</span>
+<div class="social-icons">
+	<a href="http://twitter.com/trenpixster" title="Nizar Venturini on Twitter" target="_blank"><i class="icon-twitter icon-2x"></i></a>
+	
+	
+	
+	
+	
+	
+	<a href="http://github.com/trenpixster" title="Nizar Venturini on Github" target="_blank"><i class="icon-github icon-2x"></i></a>
+	
+</div><!-- /.social-icons -->
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+<!-- Jekyll Simple Search option -->
+<script>
+  $(document).ready(function() {
+      $('.search-field').simpleJekyllSearch({
+          jsonFile : 'http://localhost:4000/search.json',
+          searchResults : '.search-results',
+          template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+          noResults: '<p>Nothing found.</p>'
+        });
+  });
+
+  (function( $, window, undefined ) {
+    
+     var bs = {
+          close: $(".icon-remove-sign"),
+          searchform: $(".search-form"),
+          canvas: $("body"),
+          dothis: $('.dosearch')
+      };
+    
+    bs.dothis.on('click', function() {
+      $('.search-wrapper').css({ display: "block" });
+      bs.searchform.toggleClass('active');
+      bs.searchform.find('input').focus();
+      bs.canvas.toggleClass('search-overlay');
+    });
+    
+      bs.close.on('click', function() {
+        $('.search-wrapper').removeAttr( 'style' );
+        bs.searchform.toggleClass('active');
+        bs.canvas.removeClass('search-overlay');
+    });
+  })( jQuery, window );
+</script>
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-51169487-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'trenpixster'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>	        
+
+</body>
+</html>

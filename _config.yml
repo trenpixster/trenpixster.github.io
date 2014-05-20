@@ -1,0 +1,49 @@
+title:            trenpixster's blog
+description:      Trenpixster on dev craftmanship
+#logo:             site-logo.png
+disqus_shortname: trenpixster
+search:           true
+# Your site's domain goes here. When working locally use localhost server leave blank
+# PS. If you set this wrong stylesheets and scripts won't load and most links will break.
+# PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
+url:              http://localhost:4000
+
+# Owner/author information
+owner:
+  name:           Nizar Venturini
+  avatar:         trenpixster.png
+  email:          your@email.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        trenpixster
+  facebook:
+  github:         trenpixster
+  linkedin:
+  instagram:
+  tumblr:
+  # For Google Authorship https://plus.google.com/authorship
+  # google_plus:    "http://plus.google.com/123123123123132123"
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: "UA-51169487-1"
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About
+    # url: /about/
+  - title: Articles
+    url: /articles/
+  # - title: Google
+  #   url: http://google.com
+  #   external: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Lisbon
+pygments:    true
+markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
