@@ -3,7 +3,7 @@
 		{
 		  "title"      : "RVM to install Ruby 2.0.0",
 		  "category"   : "",
-		  "url"        : "http://localhost:4000/preparing/rvm-to-install-ruby-200/",
+		  "url"        : "http://trenpixster.github.io/preparing/rvm-to-install-ruby-200/",
 		  "date"       : "2014-04-02 23:07:58 +0100",
 		  "shortdate"  : "April 02, 2014"
 		} ,
@@ -11,7 +11,7 @@
 		{
 		  "title"      : "Backbone.JS Tutorial part 3",
 		  "category"   : "",
-		  "url"        : "http://localhost:4000/learning/backbone-tutorial-3/",
+		  "url"        : "http://trenpixster.github.io/learning/backbone-tutorial-3/",
 		  "date"       : "2014-03-24 22:17:58 +0000",
 		  "shortdate"  : "March 24, 2014"
 		} ,
@@ -19,7 +19,7 @@
 		{
 		  "title"      : "Backbone.JS Tutorial part 2",
 		  "category"   : "",
-		  "url"        : "http://localhost:4000/learning/backbone-tutorial-2/",
+		  "url"        : "http://trenpixster.github.io/learning/backbone-tutorial-2/",
 		  "date"       : "2014-03-15 22:07:58 +0000",
 		  "shortdate"  : "March 15, 2014"
 		} ,
@@ -27,7 +27,7 @@
 		{
 		  "title"      : "The wonders of .bind()",
 		  "category"   : "",
-		  "url"        : "http://localhost:4000/tip/the-wonders-of-bind/",
+		  "url"        : "http://trenpixster.github.io/tip/the-wonders-of-bind/",
 		  "date"       : "2014-03-02 22:07:58 +0000",
 		  "shortdate"  : "March 02, 2014"
 		} ,
@@ -35,7 +35,7 @@
 		{
 		  "title"      : "Backbone.JS Tutorial part 1",
 		  "category"   : "",
-		  "url"        : "http://localhost:4000/learning/backbone-tutorial-1/",
+		  "url"        : "http://trenpixster.github.io/learning/backbone-tutorial-1/",
 		  "date"       : "2014-03-02 22:07:58 +0000",
 		  "shortdate"  : "March 02, 2014"
 		} ,
@@ -43,7 +43,7 @@
 		{
 		  "title"      : "p 'Hello world'",
 		  "category"   : "",
-		  "url"        : "http://localhost:4000/opinion/hello-world/",
+		  "url"        : "http://trenpixster.github.io/opinion/hello-world/",
 		  "date"       : "2014-03-01 23:07:58 +0000",
 		  "shortdate"  : "March 01, 2014"
 		} 

@@ -7,29 +7,29 @@
 
 <title type="text">trenpixster's blog</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
-<link rel="alternate" type="text/html" href="http://localhost:4000/" />
-<updated>2014-05-20T12:21:31+01:00</updated>
-<id>http://localhost:4000/</id>
+<link rel="self" type="application/atom+xml" href="http://trenpixster.github.io/feed.xml" />
+<link rel="alternate" type="text/html" href="http://trenpixster.github.io/" />
+<updated>2014-05-20T13:16:40+01:00</updated>
+<id>http://trenpixster.github.io/</id>
 <author>
   <name>Nizar Venturini</name>
-  <uri>http://localhost:4000/</uri>
-  <email>your@email.com</email>
+  <uri>http://trenpixster.github.io/</uri>
+  <email></email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[RVM to install Ruby 2.0.0]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/preparing/rvm-to-install-ruby-200/"/>
-  <id>http://localhost:4000/preparing/rvm-to-install-ruby-200</id>
+  <link rel="alternate" type="text/html" href="http://trenpixster.github.io/preparing/rvm-to-install-ruby-200/"/>
+  <id>http://trenpixster.github.io/preparing/rvm-to-install-ruby-200</id>
   <published>2014-04-02T23:07:58+01:00</published>
   <updated>2014-04-02T23:07:58+01:00</updated>
   <author>
     <name>Nizar Venturini</name>
-    <uri>http://localhost:4000</uri>
-    <email>your@email.com</email>
+    <uri>http://trenpixster.github.io</uri>
+    <email></email>
   </author>
-  <category scheme="http://localhost:4000/tags/#ruby" term="ruby" /><category scheme="http://localhost:4000/tags/#rvm" term="rvm" />
+  <category scheme="http://trenpixster.github.io/tags/#ruby" term="ruby" /><category scheme="http://trenpixster.github.io/tags/#rvm" term="rvm" />
   <content type="html">
   
     &lt;p&gt;Ruby 2.0.0 is here for quite a while. If youâ€™re using RVM to manage your installed Ruby versions all you have to do is:&lt;/p&gt;
@@ -60,22 +60,22 @@ rvm install 2.0.0
 &lt;p&gt;Welcome to Ruby 2! :)&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/preparing/rvm-to-install-ruby-200/&quot;&gt;RVM to install Ruby 2.0.0&lt;/a&gt; was originally published by Nizar Venturini at &lt;a href=&quot;http://localhost:4000&quot;&gt;trenpixster's blog&lt;/a&gt; on April 02, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://trenpixster.github.io/preparing/rvm-to-install-ruby-200/&quot;&gt;RVM to install Ruby 2.0.0&lt;/a&gt; was originally published by Nizar Venturini at &lt;a href=&quot;http://trenpixster.github.io&quot;&gt;trenpixster's blog&lt;/a&gt; on April 02, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Backbone.JS Tutorial part 3]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/learning/backbone-tutorial-3/"/>
-  <id>http://localhost:4000/learning/backbone-tutorial-3</id>
+  <link rel="alternate" type="text/html" href="http://trenpixster.github.io/learning/backbone-tutorial-3/"/>
+  <id>http://trenpixster.github.io/learning/backbone-tutorial-3</id>
   <published>2014-03-24T22:17:58+00:00</published>
   <updated>2014-03-24T22:17:58+00:00</updated>
   <author>
     <name>Nizar Venturini</name>
-    <uri>http://localhost:4000</uri>
-    <email>your@email.com</email>
+    <uri>http://trenpixster.github.io</uri>
+    <email></email>
   </author>
-  <category scheme="http://localhost:4000/tags/#backbone" term="backbone" /><category scheme="http://localhost:4000/tags/#javascript" term="javascript" /><category scheme="http://localhost:4000/tags/#tutorial" term="tutorial" />
+  <category scheme="http://trenpixster.github.io/tags/#backbone" term="backbone" /><category scheme="http://trenpixster.github.io/tags/#javascript" term="javascript" /><category scheme="http://trenpixster.github.io/tags/#tutorial" term="tutorial" />
   <content type="html">
   
     &lt;p&gt;Hereâ€™s the 3rd post on the Backbone.js tutorial series. If you missed the first one check it out &lt;a href=&quot;/learning/backbone-tutorial-1&quot;&gt;here&lt;/a&gt;. This time Iâ€™ll walk you around &lt;code&gt;Backbone.View&lt;/code&gt;, the object responsible for creating and updating the UI of the web-app.&lt;/p&gt;
@@ -221,22 +221,22 @@ Backbone allows you to specify jQuery events to interact with your views. Hereâ€
 &lt;p&gt;Next stop will be &lt;code&gt;Backbone.Router&lt;/code&gt;, which will handle the navigation in the web-app.&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/learning/backbone-tutorial-3/&quot;&gt;Backbone.JS Tutorial part 3&lt;/a&gt; was originally published by Nizar Venturini at &lt;a href=&quot;http://localhost:4000&quot;&gt;trenpixster's blog&lt;/a&gt; on March 24, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://trenpixster.github.io/learning/backbone-tutorial-3/&quot;&gt;Backbone.JS Tutorial part 3&lt;/a&gt; was originally published by Nizar Venturini at &lt;a href=&quot;http://trenpixster.github.io&quot;&gt;trenpixster's blog&lt;/a&gt; on March 24, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Backbone.JS Tutorial part 2]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/learning/backbone-tutorial-2/"/>
-  <id>http://localhost:4000/learning/backbone-tutorial-2</id>
+  <link rel="alternate" type="text/html" href="http://trenpixster.github.io/learning/backbone-tutorial-2/"/>
+  <id>http://trenpixster.github.io/learning/backbone-tutorial-2</id>
   <published>2014-03-15T22:07:58+00:00</published>
   <updated>2014-03-15T22:07:58+00:00</updated>
   <author>
     <name>Nizar Venturini</name>
-    <uri>http://localhost:4000</uri>
-    <email>your@email.com</email>
+    <uri>http://trenpixster.github.io</uri>
+    <email></email>
   </author>
-  <category scheme="http://localhost:4000/tags/#backbone" term="backbone" /><category scheme="http://localhost:4000/tags/#javascript" term="javascript" /><category scheme="http://localhost:4000/tags/#tutorial" term="tutorial" />
+  <category scheme="http://trenpixster.github.io/tags/#backbone" term="backbone" /><category scheme="http://trenpixster.github.io/tags/#javascript" term="javascript" /><category scheme="http://trenpixster.github.io/tags/#tutorial" term="tutorial" />
   <content type="html">
   
     &lt;p&gt;Hereâ€™s the 2nd post on Backbone.js. If you missed the first one check it out &lt;a href=&quot;/learning/backbone-tutorial-1/#header&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -372,22 +372,22 @@ Backbone allows you to specify jQuery events to interact with your views. Hereâ€
 &lt;p&gt;Feel free to leave props or flames in the comment section ;-)&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/learning/backbone-tutorial-2/&quot;&gt;Backbone.JS Tutorial part 2&lt;/a&gt; was originally published by Nizar Venturini at &lt;a href=&quot;http://localhost:4000&quot;&gt;trenpixster's blog&lt;/a&gt; on March 15, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://trenpixster.github.io/learning/backbone-tutorial-2/&quot;&gt;Backbone.JS Tutorial part 2&lt;/a&gt; was originally published by Nizar Venturini at &lt;a href=&quot;http://trenpixster.github.io&quot;&gt;trenpixster's blog&lt;/a&gt; on March 15, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[The wonders of .bind()]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/tip/the-wonders-of-bind/"/>
-  <id>http://localhost:4000/tip/the-wonders-of-bind</id>
+  <link rel="alternate" type="text/html" href="http://trenpixster.github.io/tip/the-wonders-of-bind/"/>
+  <id>http://trenpixster.github.io/tip/the-wonders-of-bind</id>
   <published>2014-03-02T22:07:58+00:00</published>
   <updated>2014-03-02T22:07:58+00:00</updated>
   <author>
     <name>Nizar Venturini</name>
-    <uri>http://localhost:4000</uri>
-    <email>your@email.com</email>
+    <uri>http://trenpixster.github.io</uri>
+    <email></email>
   </author>
-  <category scheme="http://localhost:4000/tags/#javascript" term="javascript" />
+  <category scheme="http://trenpixster.github.io/tags/#javascript" term="javascript" />
   <content type="html">
   
     &lt;p&gt;Hereâ€™s a quick cool tip to improve code smoothness.&lt;/p&gt;
@@ -446,22 +446,22 @@ Backbone allows you to specify jQuery events to interact with your views. Hereâ€
 &lt;p&gt;And yes, this is vanilla Javascript, no libs required.&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/tip/the-wonders-of-bind/&quot;&gt;The wonders of .bind()&lt;/a&gt; was originally published by Nizar Venturini at &lt;a href=&quot;http://localhost:4000&quot;&gt;trenpixster's blog&lt;/a&gt; on March 02, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://trenpixster.github.io/tip/the-wonders-of-bind/&quot;&gt;The wonders of .bind()&lt;/a&gt; was originally published by Nizar Venturini at &lt;a href=&quot;http://trenpixster.github.io&quot;&gt;trenpixster's blog&lt;/a&gt; on March 02, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Backbone.JS Tutorial part 1]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/learning/backbone-tutorial-1/"/>
-  <id>http://localhost:4000/learning/backbone-tutorial-1</id>
+  <link rel="alternate" type="text/html" href="http://trenpixster.github.io/learning/backbone-tutorial-1/"/>
+  <id>http://trenpixster.github.io/learning/backbone-tutorial-1</id>
   <published>2014-03-02T22:07:58+00:00</published>
   <updated>2014-03-02T22:07:58+00:00</updated>
   <author>
     <name>Nizar Venturini</name>
-    <uri>http://localhost:4000</uri>
-    <email>your@email.com</email>
+    <uri>http://trenpixster.github.io</uri>
+    <email></email>
   </author>
-  <category scheme="http://localhost:4000/tags/#backbone" term="backbone" /><category scheme="http://localhost:4000/tags/#javascript" term="javascript" /><category scheme="http://localhost:4000/tags/#tutorial" term="tutorial" />
+  <category scheme="http://trenpixster.github.io/tags/#backbone" term="backbone" /><category scheme="http://trenpixster.github.io/tags/#javascript" term="javascript" /><category scheme="http://trenpixster.github.io/tags/#tutorial" term="tutorial" />
   <content type="html">
   
     &lt;h1 id=&quot;introduction&quot;&gt;introduction&lt;/h1&gt;
@@ -612,22 +612,22 @@ Destroy instructs your API to delete a model via a HTTP DELETE request. In our c
 &lt;p&gt;Feel free to leave props or flames in the comment section ;-)&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/learning/backbone-tutorial-1/&quot;&gt;Backbone.JS Tutorial part 1&lt;/a&gt; was originally published by Nizar Venturini at &lt;a href=&quot;http://localhost:4000&quot;&gt;trenpixster's blog&lt;/a&gt; on March 02, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://trenpixster.github.io/learning/backbone-tutorial-1/&quot;&gt;Backbone.JS Tutorial part 1&lt;/a&gt; was originally published by Nizar Venturini at &lt;a href=&quot;http://trenpixster.github.io&quot;&gt;trenpixster's blog&lt;/a&gt; on March 02, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[p 'Hello world']]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/opinion/hello-world/"/>
-  <id>http://localhost:4000/opinion/hello-world</id>
+  <link rel="alternate" type="text/html" href="http://trenpixster.github.io/opinion/hello-world/"/>
+  <id>http://trenpixster.github.io/opinion/hello-world</id>
   <published>2014-03-01T23:07:58+00:00</published>
   <updated>2014-03-01T23:07:58+00:00</updated>
   <author>
     <name>Nizar Venturini</name>
-    <uri>http://localhost:4000</uri>
-    <email>your@email.com</email>
+    <uri>http://trenpixster.github.io</uri>
+    <email></email>
   </author>
-  <category scheme="http://localhost:4000/tags/#hai!" term="hai!" />
+  <category scheme="http://trenpixster.github.io/tags/#hai!" term="hai!" />
   <content type="html">
   
     &lt;p&gt;Welcome dear internaut, get ready for a bumpy ride!&lt;/p&gt;
@@ -635,7 +635,7 @@ Destroy instructs your API to delete a model via a HTTP DELETE request. In our c
 &lt;p&gt;&lt;img src=&quot;http://24.media.tumblr.com/d88b9a6407424b536a74e59b5be459b6/tumblr_mwiwh4WjNE1sttl5mo1_500.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/opinion/hello-world/&quot;&gt;p 'Hello world'&lt;/a&gt; was originally published by Nizar Venturini at &lt;a href=&quot;http://localhost:4000&quot;&gt;trenpixster's blog&lt;/a&gt; on March 01, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://trenpixster.github.io/opinion/hello-world/&quot;&gt;p 'Hello world'&lt;/a&gt; was originally published by Nizar Venturini at &lt;a href=&quot;http://trenpixster.github.io&quot;&gt;trenpixster's blog&lt;/a&gt; on March 01, 2014.&lt;/p&gt;</content>
 </entry>
 
 </feed>
